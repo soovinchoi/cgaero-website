@@ -79,3 +79,30 @@ button {
 .card p {
     line-height: 1.5;
 }
+.services h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.service-intro {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 60px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card li {
+    margin-bottom: 14px;
+    font-size: 17px;
+}
+
+.card li::before {
+    content: "✈ ";
+    color: #2d1164;
+}
