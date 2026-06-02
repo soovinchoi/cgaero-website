@@ -655,21 +655,55 @@ header {
 
 height:auto;
 
+padding:18px 15px;
+
 flex-direction:column;
+
+}
+
+
+.logo {
+
+width:145px;
 
 }
 
 
 nav {
 
-margin-top:20px;
+margin-top:18px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:18px;
+
+flex-wrap:nowrap;
+
+width:100%;
 
 }
 
 
 nav a {
 
-margin:10px;
+margin:0;
+
+font-size:11px;
+
+letter-spacing:2px;
+
+white-space:nowrap;
+
+}
+
+
+.hero {
+
+padding-top:60px;
 
 }
 
