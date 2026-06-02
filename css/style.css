@@ -124,20 +124,18 @@ margin-bottom:65px;
 .hero h1 {
 
 font-family:
-"Avenir Next",
-"Helvetica Neue",
-Arial,
-sans-serif;
+"Cormorant Garamond",
+serif;
 
-font-size:68px;
+font-size:88px;
 
-font-weight:300;
+font-weight:400;
 
-letter-spacing:1px;
+line-height:.95;
 
-line-height:1.05;
+letter-spacing:.5px;
 
-letter-spacing:-3px;
+color:#151515;
 
 }
 
