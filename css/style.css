@@ -542,8 +542,7 @@ linear-gradient(
 
 color:white;
 
-padding:90px 9% 45px;
-
+padding:90px 9% 70px;
 }
 
 
@@ -639,18 +638,27 @@ color:white;
 
 }
 
+.footer-bottom {
 
-.copyright {
+margin-top:120px;
 
-margin-top:70px;
+padding-top:40px;
+
+border-top:1px solid rgba(255,255,255,.08);
 
 text-align:center;
 
-font-size:12px;
+font-size:11px;
 
-letter-spacing:2px;
+font-weight:300;
 
-color:#777;
+letter-spacing:3px;
+
+line-height:2;
+
+color:rgba(255,255,255,.35);
+
+text-transform:uppercase;
 
 }
 
