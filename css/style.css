@@ -549,13 +549,16 @@ padding:90px 9% 45px;
 
 .footer-logo {
 
-width:140px;
+width:220px;
+max-width:70%;
+
+height:auto;
 
 display:block;
 
 margin:0 auto 35px;
 
-opacity:.9;
+opacity:.95;
 
 }
 
