@@ -124,16 +124,17 @@ margin-bottom:65px;
 .hero h1 {
 
 font-family:
-"Cormorant Garamond",
-serif;
+"Helvetica Neue",
+"Arial",
+sans-serif;
 
-font-size:88px;
+font-size:76px;
 
-font-weight:400;
+font-weight:200;
 
-line-height:.95;
+line-height:1.05;
 
-letter-spacing:.5px;
+letter-spacing:-2px;
 
 color:#151515;
 
@@ -232,7 +233,10 @@ color:white;
 
 .runway h2 {
 
-font-family:"Cormorant Garamond",serif;
+font-family:
+"Helvetica Neue",
+Arial,
+sans-serif;
 
 font-size:80px;
 
@@ -290,7 +294,10 @@ box-shadow:
 
 .about h2 {
 
-font-family:"Cormorant Garamond",serif;
+font-family:
+"Helvetica Neue",
+Arial,
+sans-serif;
    
 font-size:55px;
 
@@ -336,7 +343,10 @@ background:#f7f7f7;
 .gallery h2,
 .rates h2 {
 
-font-family:"Cormorant Garamond",serif;
+font-family:
+"Helvetica Neue",
+Arial,
+sans-serif;
 
 font-size:58px;
 
