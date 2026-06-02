@@ -1,25 +1,32 @@
-/* =========================
-   CG AERO Corp updated STYLE
-   ========================= */
+/* ===============================
+   CG AERO Corp DESIGN
+================================ */
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 
 html {
-    scroll-behavior: smooth;
+scroll-behavior:smooth;
 }
 
 
 body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    color: #1a1a1a;
-    background: white;
-    overflow-x: hidden;
+
+font-family:
+"Avenir Next",
+"Helvetica Neue",
+Arial,
+sans-serif;
+
+color:#171717;
+background:#fff;
+overflow-x:hidden;
+
 }
 
 
@@ -29,61 +36,55 @@ body {
 
 header {
 
-    height: 95px;
+height:95px;
+padding:22px 8%;
 
-    padding: 20px 8%;
+display:flex;
+align-items:center;
+justify-content:space-between;
 
-    display: flex;
+background:rgba(255,255,255,.92);
 
-    align-items: center;
+position:sticky;
+top:0;
 
-    justify-content: space-between;
+z-index:1000;
 
-    background: rgba(255,255,255,0.95);
-
-    position: sticky;
-
-    top: 0;
-
-    z-index: 1000;
-
-    backdrop-filter: blur(10px);
+backdrop-filter:blur(14px);
 
 }
-
 
 
 .logo {
 
-    width: 170px;
+width:165px;
 
 }
-
 
 
 nav a {
 
-    margin-left: 40px;
+margin-left:38px;
 
-    text-decoration: none;
+text-decoration:none;
 
-    color: #2b145f;
+font-size:13px;
 
-    font-size: 15px;
+letter-spacing:2px;
 
-    letter-spacing: 1px;
+color:#2b145f;
 
-    font-weight: 500;
+text-transform:uppercase;
 
 }
-
 
 
 nav a:hover {
 
-    color: #777;
+color:#777;
 
 }
+
 
 
 
@@ -94,93 +95,86 @@ nav a:hover {
 
 .hero {
 
-    min-height: 850px;
+min-height:850px;
 
-    display: flex;
+display:flex;
+flex-direction:column;
 
-    flex-direction: column;
+align-items:center;
+justify-content:center;
 
-    justify-content: center;
+text-align:center;
 
-    align-items: center;
-
-    text-align: center;
-
-    padding: 80px 20px;
+padding:80px 20px;
 
 }
-
 
 
 .anniversary {
 
-    width: 420px;
+width:330px;
 
-    max-width: 90%;
+max-width:85%;
 
-    margin-bottom: 45px;
+margin-bottom:65px;
 
 }
-
 
 
 .hero h1 {
 
-    font-size: 72px;
+font-family:Georgia, "Times New Roman", serif;
 
-    line-height: 1.05;
+font-size:82px;
 
-    font-weight: 400;
+font-weight:300;
 
-    letter-spacing: -2px;
+line-height:1.05;
+
+letter-spacing:-3px;
 
 }
-
 
 
 .hero p {
 
-    max-width: 720px;
+max-width:680px;
 
-    margin: 35px auto;
+margin:45px auto;
 
-    font-size: 19px;
+font-size:18px;
 
-    line-height: 1.8;
+line-height:2;
 
-    color: #555;
+color:#555;
 
 }
-
 
 
 .button {
 
-    margin-top: 20px;
+padding:18px 60px;
 
-    padding: 16px 45px;
+border:1px solid #32136f;
 
-    border: 1px solid #2b145f;
+text-decoration:none;
 
-    color: #2b145f;
+font-size:12px;
 
-    text-decoration: none;
+letter-spacing:5px;
 
-    letter-spacing: 3px;
+color:#32136f;
 
-    font-size: 13px;
-
-    transition: 0.4s;
+transition:.5s;
 
 }
-
 
 
 .button:hover {
 
-    background: #2b145f;
+background:#32136f;
 
-    color: white;
+color:white;
 
 }
 
@@ -190,43 +184,41 @@ nav a:hover {
 
 
 
-/* RUNWAY PARALLAX */
+
+/* RUNWAY IMAGE */
 
 
 .runway {
 
-    height: 650px;
+height:700px;
 
 
-    background-image:
+background-image:
 
-    linear-gradient(
+linear-gradient(
+rgba(0,0,0,.35),
+rgba(0,0,0,.35)
+),
 
-    rgba(0,0,0,.35),
-
-    rgba(0,0,0,.35)
-
-    ),
-
-    url("../assets/lines.jpg");
+url("../assets/28.png");
 
 
-    background-size: cover;
+background-size:cover;
 
-    background-position: center;
+background-position:center;
 
-    background-attachment: fixed;
+background-attachment:fixed;
 
 
-    display: flex;
+display:flex;
 
-    justify-content: center;
+align-items:center;
 
-    align-items: center;
+justify-content:center;
 
-    text-align: center;
+text-align:center;
 
-    color: white;
+color:white;
 
 }
 
@@ -234,21 +226,24 @@ nav a:hover {
 
 .runway h2 {
 
-    font-size: 72px;
+font-family:Georgia,serif;
 
-    font-weight: 300;
+font-size:80px;
 
-    line-height: 1.1;
+font-weight:300;
+
+line-height:1.05;
 
 }
 
 
-
 .runway p {
 
-    margin-top: 25px;
+margin-top:30px;
 
-    font-size: 20px;
+font-size:20px;
+
+letter-spacing:1px;
 
 }
 
@@ -264,51 +259,52 @@ nav a:hover {
 
 .about {
 
-    padding: 130px 10%;
+padding:140px 10%;
 
-    display: grid;
+display:grid;
 
-    grid-template-columns: 1fr 1fr;
+grid-template-columns:1fr 1fr;
 
-    gap: 90px;
+gap:90px;
 
-    align-items: center;
+align-items:center;
 
 }
-
 
 
 .history-img {
 
-    width: 100%;
+width:100%;
 
-    box-shadow: 0 25px 60px rgba(0,0,0,.18);
+box-shadow:
+0 30px 80px rgba(0,0,0,.18);
 
 }
-
 
 
 .about h2 {
 
-    font-size: 50px;
+font-family:Georgia,serif;
 
-    font-weight: 400;
+font-size:55px;
+
+font-weight:300;
 
 }
-
 
 
 .about p {
 
-    margin-top: 30px;
+margin-top:35px;
 
-    font-size: 18px;
+font-size:18px;
 
-    color: #555;
+line-height:2;
 
-    line-height: 1.9;
+color:#555;
 
 }
+
 
 
 
@@ -322,97 +318,101 @@ nav a:hover {
 
 .services {
 
-    background: #f7f7f7;
+padding:130px 10%;
 
-    padding: 120px 8%;
+background:#f7f7f7;
 
 }
 
 
 
 .services h2,
+.gallery h2,
+.rates h2 {
 
-.gallery h2 {
+font-family:Georgia,serif;
 
-    text-align: center;
+font-size:58px;
 
-    font-size: 52px;
+font-weight:300;
 
-    font-weight: 400;
+text-align:center;
 
-    margin-bottom: 70px;
-
-}
-
-
-
-.cards {
-
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 45px;
+margin-bottom:80px;
 
 }
 
 
 
-.card {
+.service-list {
 
-    background: white;
+display:grid;
 
-    overflow: hidden;
+grid-template-columns:repeat(2,1fr);
 
-    transition: .5s;
-
-}
-
-
-
-.card:hover {
-
-    transform: translateY(-10px);
-
-    box-shadow: 0 25px 60px rgba(0,0,0,.12);
+gap:50px;
 
 }
 
 
 
-.card img {
+.service-list div {
 
-    width: 100%;
+background:white;
 
-    height: 260px;
+padding:55px;
 
-    object-fit: cover;
+transition:.5s;
 
-}
-
-
-
-.card h3 {
-
-    padding: 35px 35px 15px;
-
-    font-size: 30px;
-
-    color: #2b145f;
+border-top:3px solid #32136f;
 
 }
 
 
 
-.card p {
+.service-list div:hover {
 
-    padding: 0 35px 40px;
+transform:translateY(-8px);
 
-    color: #555;
-
-    line-height: 1.7;
+box-shadow:
+0 30px 70px rgba(0,0,0,.12);
 
 }
+
+
+
+.service-list span {
+
+color:#32136f;
+
+letter-spacing:4px;
+
+font-size:14px;
+
+}
+
+
+
+.service-list h3 {
+
+margin:25px 0;
+
+font-size:28px;
+
+font-weight:400;
+
+}
+
+
+
+.service-list p {
+
+line-height:1.9;
+
+color:#555;
+
+}
+
 
 
 
@@ -425,41 +425,38 @@ nav a:hover {
 
 .gallery {
 
-    padding: 120px 8%;
+padding:130px 8%;
 
 }
-
 
 
 .gallery-grid {
 
-    display: grid;
+display:grid;
 
-    grid-template-columns: repeat(4, 1fr);
+grid-template-columns:repeat(4,1fr);
 
-    gap: 20px;
+gap:22px;
 
 }
-
 
 
 .gallery-grid img {
 
-    width: 100%;
+width:100%;
 
-    height: 260px;
+height:280px;
 
-    object-fit: cover;
+object-fit:cover;
 
-    transition: .5s;
+transition:.5s;
 
 }
-
 
 
 .gallery-grid img:hover {
 
-    transform: scale(1.04);
+transform:scale(1.04);
 
 }
 
@@ -470,72 +467,160 @@ nav a:hover {
 
 
 
-/* CONTACT */
+/* RATES */
 
 
-.contact {
+.rates {
 
-    padding: 120px 20px;
+padding:130px 20px;
 
-    background: #1c1c1c;
+text-align:center;
 
-    color: white;
+background:white;
 
-    text-align: center;
+}
+
+
+.rates h4 {
+
+font-size:15px;
+
+letter-spacing:3px;
+
+margin-bottom:50px;
+
+color:#777;
+
+}
+
+
+.rates p {
+
+font-family:Georgia,serif;
+
+font-size:26px;
+
+margin:25px;
 
 }
 
 
 
-.contact h2 {
 
-    font-size: 45px;
 
-    margin-bottom: 30px;
+
+
+
+
+/* FOOTER */
+
+
+footer {
+
+padding:90px 10% 50px;
+
+background:#151515;
+
+color:white;
+
+text-align:center;
+
+}
+
+
+footer img {
+
+width:180px;
+
+filter:brightness(1.2);
+
+}
+
+
+footer h3 {
+
+margin:35px 0 70px;
+
+font-family:Georgia,serif;
+
+font-size:28px;
+
+font-weight:300;
+
+}
+
+
+.footer-grid {
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:50px;
+
+text-align:left;
+
+margin-bottom:70px;
+
+}
+
+
+footer h4 {
+
+font-size:12px;
+
+letter-spacing:4px;
+
+color:#aaa;
+
+margin-bottom:20px;
+
+}
+
+
+footer p {
+
+line-height:1.8;
+
+color:#ddd;
+
+}
+
+
+small {
+
+color:#777;
 
 }
 
 
 
-.contact p {
-
-    line-height: 1.8;
-
-    color: #ddd;
-
-}
 
 
 
 
 
-
-
-
-
-/* SCROLL ANIMATION */
+/* ANIMATION */
 
 
 .fade-up {
 
-    opacity: 0;
+opacity:0;
 
-    transform: translateY(50px);
+transform:translateY(50px);
 
-    transition: all 1.2s ease;
+transition:all 1.2s ease;
 
 }
-
 
 
 .fade-up.show {
 
-    opacity: 1;
+opacity:1;
 
-    transform: translateY(0);
+transform:translateY(0);
 
 }
-
 
 
 
@@ -547,55 +632,46 @@ nav a:hover {
 /* MOBILE */
 
 
-@media(max-width: 900px) {
+@media(max-width:900px){
 
 
 header {
 
-    height: auto;
+height:auto;
 
-    flex-direction: column;
+flex-direction:column;
 
 }
 
 
 nav {
 
-    margin-top: 20px;
+margin-top:20px;
 
 }
 
 
 nav a {
 
-    margin: 10px;
+margin:10px;
 
 }
 
 
 .hero h1,
-
 .runway h2 {
 
-    font-size: 45px;
+font-size:48px;
 
 }
 
 
 .about,
+.service-list,
+.gallery-grid,
+.footer-grid {
 
-.cards,
-
-.gallery-grid {
-
-    grid-template-columns: 1fr;
-
-}
-
-
-.about {
-
-    padding: 80px 8%;
+grid-template-columns:1fr;
 
 }
 
