@@ -1,22 +1,23 @@
-// CG Aero Corp Scroll Animation
+/* ===============================
+   CG AERO LUXURY INTERACTIONS
+================================ */
 
 
-const fadeElements = document.querySelectorAll('.fade-up');
+// Smooth fade-up animation while scrolling
+
+const fadeElements = document.querySelectorAll(".fade-up");
 
 
 const observer = new IntersectionObserver(
 
 (entries) => {
 
-
 entries.forEach(entry => {
 
 
 if (entry.isIntersecting) {
 
-
-entry.target.classList.add('show');
-
+entry.target.classList.add("show");
 
 }
 
@@ -47,28 +48,50 @@ observer.observe(element);
 
 
 
-// Smooth header effect while scrolling
 
 
-const header = document.querySelector('header');
+
+// Premium header shadow on scroll
 
 
-window.addEventListener('scroll', () => {
+const header = document.querySelector("header");
 
 
-if (window.scrollY > 50) {
+window.addEventListener("scroll", () => {
 
 
-header.classList.add('scrolled');
+if (window.scrollY > 60) {
+
+
+header.style.boxShadow =
+"0 10px 40px rgba(0,0,0,0.08)";
 
 
 } else {
 
 
-header.classList.remove('scrolled');
+header.style.boxShadow =
+"none";
 
 
 }
+
+
+});
+
+
+
+
+
+
+
+// Luxury image reveal timing
+
+
+window.addEventListener("load", () => {
+
+
+document.body.classList.add("loaded");
 
 
 });
