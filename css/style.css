@@ -747,5 +747,72 @@ margin:35px auto;
 letter-spacing:.2px;
 
 }
+.rates {
 
+padding:80px 25px;
+
+}
+
+
+.rates h2 {
+
+font-size:42px;
+
+font-weight:200;
+
+letter-spacing:-1px;
+
+margin-bottom:15px;
+
+}
+
+
+.rates .date {
+
+font-size:13px;
+
+letter-spacing:2px;
+
+text-transform:uppercase;
+
+margin-bottom:40px;
+
+color:#666;
+
+}
+
+
+.rate-list {
+
+max-width:330px;
+
+margin:auto;
+
+}
+
+
+.rate-list p {
+
+font-size:15px;
+
+line-height:2;
+
+letter-spacing:.3px;
+
+border-bottom:1px solid #eeeeee;
+
+padding:14px 0;
+
+}
+
+
+.rate-list strong {
+
+font-size:18px;
+
+font-weight:500;
+
+color:#2b1768;
+
+}
 }
